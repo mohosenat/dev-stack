@@ -1,10 +1,10 @@
-# 🚀 Dev Stack Builder
+## Dev Stack Builder
 
 Dev Stack Builder is a responsive React web application where users can explore different technologies and build their own personalized development stack.
 
 Technology data is loaded from a JSON file, and users can add or remove technologies from their stack with interactive feedback.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - React.js
 - JavaScript (ES6+)
@@ -14,7 +14,7 @@ Technology data is loaded from a JSON file, and users can add or remove technolo
 - JSON
 - Vite
 
-## ✨ Features
+## Features
 
 ### 1. Explore Technologies
 
@@ -28,17 +28,18 @@ Users can add technologies to their personal stack. Duplicate technologies are p
 
 The website is fully responsive for desktop, tablet, and mobile devices. Toast notifications and loading states provide clear feedback for user actions.
 
-## 🚀 Live Demo
+=======
+## Live Demo
 
 [Live Site](https://dev-stack-five-sigma.vercel.app/)
 
-## 📂 GitHub Repository
+## GitHub Repository
 
 [GitHub Repository](https://github.com/mohosenat/dev-stack)
 
 ---
 
-## 📚 React Questions & Answers
+## React Questions & Answers
 
 ### 1. What is JSX, and why is it used in React?
 
