@@ -28,7 +28,6 @@ Users can add technologies to their personal stack. Duplicate technologies are p
 
 The website is fully responsive for desktop, tablet, and mobile devices. Toast notifications and loading states provide clear feedback for user actions.
 
-=======
 ## Live Demo
 
 [Live Site](https://dev-stack-five-sigma.vercel.app/)

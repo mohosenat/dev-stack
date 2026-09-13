@@ -1026,21 +1026,44 @@ button {
     min-height: 225px;
   }
 
+  {
+  .footer {
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .footer-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    justify-items: center;
+  }
+
+  .footer-grid > div {
+    width: 100%;
+    text-align: center;
   }
 
   .footer-grid > div:first-child {
-    grid-column: 1 / -1;
+    grid-column: auto;
+  }
+
+  .footer-social {
+    justify-content: center;
   }
 
   .footer-bottom {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     gap: 15px;
   }
 
   .footer-bottom div {
+    justify-content: center;
+    align-items: center;
     gap: 18px;
   }
+}
 }
