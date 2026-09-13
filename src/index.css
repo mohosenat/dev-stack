@@ -948,19 +948,20 @@ button {
     display: flex;
   }
 
+ {
   .nav-actions {
-    gap: 8px;
-    margin-left: auto;
+    gap: 6px;
   }
 
   .signin {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .signup {
-    padding: 9px 13px;
-    font-size: 11px;
+    padding: 8px 10px;
+    font-size: 10px;
   }
+}
 
   .hero {
     grid-template-columns: 1fr;
@@ -1041,28 +1042,5 @@ button {
 
   .footer-bottom div {
     gap: 18px;
-  }
-}
-
-
-/* =========================
-   SMALL MOBILE
-========================= */
-
-@media (max-width: 380px) {
-  .hero h1 {
-    font-size: 33px;
-  }
-
-  .nav-actions {
-    gap: 5px;
-  }
-
-  .signup {
-    padding: 8px 10px;
-  }
-
-  .logo {
-    font-size: 15px;
   }
 }
