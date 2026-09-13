@@ -64,15 +64,6 @@ A unique `key` helps React identify each item in a list. It allows React to effi
 
 Conditional rendering means showing different UI based on a condition. In this project, I used it to show `No technologies selected.` when the stack is empty.
 
-```jsx
-{stack.length === 0 ? (
-  <div className="empty-stack">No technologies selected.</div>
-) : (
-  <div className="stack-items">
-    {/* selected technologies */}
-  </div>
-)}
-
 ### 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 
 A parent component passes data to a child component using **props**. To send something back, the parent can pass a **function as a prop**, and the child can call that function.
