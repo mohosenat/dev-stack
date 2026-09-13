@@ -908,7 +908,7 @@ button {
   .container,
   .nav-inner {
     width: min(100% - 32px, 560px);
-  }
+
 
   .nav-inner {
     height: 64px;
@@ -949,18 +949,18 @@ button {
   }
 
   .nav-actions {
-    gap: 6px;
+    gap: 8px;
+    margin-left: auto;
   }
 
   .signin {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .signup {
-    padding: 8px 10px;
-    font-size: 10px;
+    padding: 9px 13px;
+    font-size: 11px;
   }
-}
 
   .hero {
     grid-template-columns: 1fr;
@@ -1025,41 +1025,22 @@ button {
     min-height: 225px;
   }
 
-  .footer {
-    text-align: center;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
   .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 28px;
-    justify-items: center;
-  }
-
-  .footer-grid > div {
-    width: 100%;
-    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
   }
 
   .footer-grid > div:first-child {
-    grid-column: auto;
-  }
-
-  .socials {
-    justify-content: center;
+    grid-column: 1 / -1;
   }
 
   .footer-bottom {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     gap: 15px;
   }
 
   .footer-bottom div {
-    justify-content: center;
-    align-items: center;
     gap: 18px;
   }
+}
+}
