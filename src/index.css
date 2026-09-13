@@ -948,7 +948,6 @@ button {
     display: flex;
   }
 
- {
   .nav-actions {
     gap: 6px;
   }
@@ -1026,21 +1025,146 @@ button {
     min-height: 225px;
   }
 
- {
-  .footer {
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 720px) {
+
+  .container,
+  .nav-inner {
+    width: min(100% - 32px, 560px);
+  }
+
+  /* NAVBAR */
+  .nav-inner {
+    height: 64px;
+    position: relative;
+  }
+
+  .mobile-menu {
+    display: block;
+    order: 0;
+  }
+
+  .nav-inner > .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    padding: 18px 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    background: #ffffff;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-actions {
+    gap: 6px;
+    margin-left: auto;
+  }
+
+  .signin {
+    font-size: 10px;
+  }
+
+  .signup {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+
+
+  /* HERO */
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 38px;
     text-align: center;
+  }
+
+  .hero-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 39px;
+    letter-spacing: -1.5px;
+  }
+
+  .hero-text {
+    max-width: 430px;
+    font-size: 13px;
+  }
+
+  .hero-art {
+    min-height: 310px;
+    height: 310px;
+    order: -1;
+  }
+
+
+  /* TECHNOLOGIES */
+  .technologies {
+    padding-top: 30px;
+  }
+
+  .section-heading {
+    text-align: center;
+  }
+
+  .section-heading h2 {
+    font-size: 27px;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stack-panel {
+    position: static;
+    order: -1;
+  }
+
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-card {
+    min-height: 225px;
+  }
+
+
+  /* FOOTER */
+  .footer {
     padding-left: 16px;
     padding-right: 16px;
+    text-align: center;
   }
 
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 28px;
     justify-items: center;
+    text-align: center;
   }
 
   .footer-grid > div {
     width: 100%;
+    align-items: center;
     text-align: center;
   }
 
@@ -1048,8 +1172,17 @@ button {
     grid-column: auto;
   }
 
-  .footer-social {
+  .footer-grid p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .socials {
     justify-content: center;
+  }
+
+  .footer-grid > div > a {
+    margin-bottom: 12px;
   }
 
   .footer-bottom {
@@ -1066,4 +1199,4 @@ button {
     gap: 18px;
   }
 }
-}
+
