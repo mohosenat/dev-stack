@@ -38,7 +38,7 @@ The website is fully responsive for desktop, tablet, and mobile devices. Toast n
 
 ---
 
-## React Questions & Answers
+## React Questions & Answers :
 
 ### 1. What is JSX, and why is it used in React?
 
