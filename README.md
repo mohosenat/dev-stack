@@ -8,7 +8,7 @@ Technology data is loaded from a JSON file, and users can add or remove technolo
 
 - React.js
 - JavaScript (ES6+)
-- Tailwind CSS
+- CSS3
 - React-Toastify
 - Lucide React
 - JSON
